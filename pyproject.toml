@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cv-analyzer2"
+version = "0.1.0"
+description = "Analisador de currículos usando IA"
+authors = ["nagano"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+google-api-python-client = "^2.155.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+streamlit = "^1.41.1"
+streamlit-aggrid = "^1.0.5"
+tinydb = "^4.8.2"
+langchain-groq = "^0.2.1"
+pandas = "^2.2.3"
+pydantic = "^2.10.3"
+python-dotenv = "^1.0.1"
+pymupdf = "^1.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
